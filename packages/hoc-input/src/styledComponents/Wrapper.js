@@ -61,7 +61,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-  .input {
+  > .input {
     order: 2;
     box-sizing: border-box;
     border: solid 1px;
@@ -79,17 +79,17 @@ const Wrapper = styled.div`
       flex: 1;
     }
 
-    input {
+    > input {
       padding: 0 ${ifSmall("8", "16")}px;
       height: ${ifSmall("30", "46")}px;
     }
 
-    textarea {
+    > textarea {
       padding: 16px;
     }
 
-    input,
-    textarea {
+    > input,
+    > textarea {
       min-width: 0;
       border: 0;
       flex: 1;
@@ -117,21 +117,21 @@ const Wrapper = styled.div`
       }
     }
 
-    .icon {
+    > .icon {
       color: ${inputBorderColor};
       height: 16px;
     }
 
-    .icon.left {
+    > .icon.left {
       margin-left: ${ifSmall("8", "16")}px;
     }
 
-    .icon.dropdown {
+    > .icon.dropdown {
       margin-left: 8px;
       margin-right: 16px;
     }
 
-    .clear {
+    > .clear {
       color: ${colors.GREY_32};
       height: 16px;
       &:hover {
