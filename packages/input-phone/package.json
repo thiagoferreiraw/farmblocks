@@ -41,7 +41,7 @@
     "@crave/farmblocks-input-text": "^3.6.22",
     "@crave/farmblocks-popover": "^2.0.7",
     "@crave/farmblocks-theme": "^1.6.2",
-    "detect-emoji-support": "vNakamura/detect-emoji-support",
+    "detect-emoji-support": "^0.1.7",
     "fuse.js": "^3.4.5",
     "libphonenumber-js": "^1.7.25",
     "react-virtualized-auto-sizer": "^1.0.2",

@@ -6540,9 +6540,10 @@ detab@2.0.2, detab@^2.0.0:
   dependencies:
     repeat-string "^1.5.4"
 
-detect-emoji-support@vNakamura/detect-emoji-support:
-  version "0.1.6"
-  resolved "https://codeload.github.com/vNakamura/detect-emoji-support/tar.gz/dc670f3852f19eed226b4b76b00ce3ee60a4ef69"
+detect-emoji-support@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/detect-emoji-support/-/detect-emoji-support-0.1.7.tgz#d8a2c0b033f6d6ed8136fce5686db449cbc5ba2c"
+  integrity sha512-0tWspWbGNr+VRwOirRwMaCHByhKQsq2u8zEj5kqC6juhm5yE5+IEMSfYmuPb1luyVregxv1xTR6K3wzD7ThltA==
 
 detect-file@^1.0.0:
   version "1.0.0"
