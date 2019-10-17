@@ -38,6 +38,7 @@ const PhoneInput = ({
   textSelectCountrySearch,
   priorityCountries,
   disabled,
+  tooltipProps,
   ...props
 }) => {
   const dismissRef = useRef();
@@ -138,6 +139,7 @@ const PhoneInput = ({
           tooltipProps={{
             padding: "0",
             fullScreenBreakpoint,
+            ...tooltipProps,
           }}
           disabled={disabled}
           trigger={
@@ -297,6 +299,11 @@ PhoneInput.propTypes = {
    * Displays the input greyed out and prevents edition
    */
   disabled: PropTypes.bool,
+
+  /**
+   * Props to be passed to the Tooltip component
+   */
+  tooltipProps: PropTypes.object,
 };
 
 export default PhoneInput;
